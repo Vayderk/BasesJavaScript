@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="css/estilo.css" type="text/css" rel="stylesheet" media="">
+</head>
+
+<body>
+
+<header>
+   
+    <button id="cerrar" onCLick="cerrar()">cerrar</button>
+    <button id="abrir" onCLick="abrir()">abrir</button>
+    
+    <nav>
+        <ul>
+            <li>Botón1</li>
+            <li>Botón2</li>
+            <li>Botón3</li>
+            <li>Botón4</li>   
+        </ul>
+    </nav>
+    
+</header>
+
+<div id="acordeon">
+
+    <h1 abrirBloque="#b1" onCLick="bloque(this)">Bloque 1</h1>
+    
+    <section id="b1">
+    
+        <h2>Lorem Ipsum</h2>
+        
+        <img src="img/slide01.jpg">
+        
+        <p>Lorem Ipsum es un texto falso que se utiliza en las imprentas.</p>
+    
+    </section>
+    
+    <h1 abrirBloque="#b2" onCLick="bloque(this)">Bloque 2</h1>
+    
+    <section id="b2">
+    
+        <h2>Lorem Ipsum</h2>
+        
+        <img src="img/slide01.jpg">
+        
+        <p>Lorem Ipsum es un texto falso que se utiliza en las imprentas.</p>
+    
+    </section>
+    
+    <h1 abrirBloque="#b3" onCLick="bloque(this)">Bloque 3</h1>
+    
+    <section id="b3">
+    
+        <h2>Lorem Ipsum</h2>
+        
+        <img src="img/slide01.jpg">
+        
+        <p>Lorem Ipsum es un texto falso que se utiliza en las imprentas.</p>
+    
+    </section>
+
+
+</div>
+
+
+<script src="js/codigo.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#logo{
+
+position: relative;
+width: 100px;
+height: 50px;
+background: red;
+left: -100%;
+transition: 1s ease;
+
+
+}
+
+#caja2{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    left: -100%;
+    transition: 1s ease;
+}
